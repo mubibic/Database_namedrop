@@ -1,0 +1,52 @@
+List 6 relational databases:
+-	MySQL
+-	Oracle
+-	PostgreSQL
+-	MariaDB
+-	Microsoft SQL Server
+-	Amazon Aurora
+
+List at least 1 of each of the NoSQL categories:
+-	Graph databases: neo4j
+-	Key-value databases: Redis
+-	Wide column databases:  hbase
+-	Document databases:  MongoDB
+
+List 2 in-memory databases:
+-	Aerospike
+-	Apache Ignite
+ 
+
+
+
+
+
+Relational databases vs. NoSQL databases:     
+
+- Key-Value Stores: 
+Where relational Databases store information in tables, key value databases store data in key-value pairs. 
+Key value databases are often used as a cache on top of a persistent data layer. 
+Key value databases don’t perform queries and they don’t have schemas.
+
+- Document Databases:
+In relational databases, data on a single object could be stored across multiple tables. In document databases all data on an instance is stored in one document.
+The data is unstructured and doesn’t require a schema. 
+Each document can contain a sub collection of documents.
+
+- Columnar Databases:
+Relational databases stores data in rows, columnar (hence the name) stores data in the columns. 
+Doesn’t have a schema and doesn’t perform joins. 
+
+
+
+
+- Graph Databases:
+Relational databases are predefined structures with tables and relationships defined by joins of foreign keys. In graph databases, data is stored as nodes and nodes have different relationships between them. Here we don’t need to join two nodes together with another node, we just define the individual relationship between the nodes. 
+
+
+
+Other considerations:
+- In-memory databases vs. persistent:
+In memory databases store data entirely in the memory on the computer whereas persistent databases are stored on the disk.
+
+
